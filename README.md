@@ -1,6 +1,6 @@
 ## Prerequisites
 ### AWS EC2
-- Docker-Engine (ubuntu)
+- Docker-Engine (ubuntu) using docker-setup in userdata
 - Kops (ubuntu)
 ### Route 53
 - Create a hosted zone (public hosted zone and match with domain registrar)
@@ -9,7 +9,6 @@
 ### IAM
 - Create kopsadmin user with AdministratorAccess policy 
 ### Docker 
-- Install Docker Engine on Ubuntu
 - usermod -aG docker username
 - Create vprofileapp, vprofiledb, and vprofileweb as repository on Docker Hub
 ### Kubernetes - https://kubernetes.io/docs/setup/production-environment/tools/kops/

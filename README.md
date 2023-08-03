@@ -1,3 +1,9 @@
+## Description
+-	Containerization: Utilized Docker to containerize the Java application stack, including Nginx, Tomcat, MySQL, Memcache, and RabbitMQ. Customized each service using Docker files and built custom images. 
+-	Docker Compose and Testing: Created a Docker Compose file to launch and test the multi-container environment, ensuring seamless integration and proper functionality across services. 
+-	Docker Hub Integration: Published custom Docker images to personal Docker Hub account for easy distribution and accessibility. 
+-	Kubernetes Deployment: Deployed a containerized Java application on a Kubernetes cluster using an EC2 instance. Utilized Docker images from the Docker Hub and created Kubernetes definition files for deployment, service, secret, and volume management. 
+-	EBS Volume and Node Labeling: Configured an EBS volume to store persistent data for the MySQL container within the Kubernetes cluster. Labeled nodes with zone names to ensure proper node selection for the MySQL pod, optimizing data locality and reliability.
 ## Prerequisites
 ### AWS EC2
 - Docker-Engine (ubuntu) using docker-setup in userdata
